@@ -38,7 +38,7 @@ const IntroComponent = (props: Props) => {
                 </motion.span>
             </div>
         </div>
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{opacity: 0 , scale:0}}
         animate={{opacity: 1 , scale:1}}
         >
@@ -46,7 +46,7 @@ const IntroComponent = (props: Props) => {
             <span className='font-bold'>Software Developer</span>
             <span className=''>, have hands on experience in <span className='font-bold'>Full Stack Development and Mobile App Developement</span></span>
             {" "}My focus is on{" "}<span className='underline'>Next JS, Flutter, Node JS</span>
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex items-center gap-2 px-4 sm:flex-row justify-center font-medium text-lg'
         initial={{opacity: 0 , y: 100}}
